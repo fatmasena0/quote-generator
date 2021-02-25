@@ -4,15 +4,21 @@
 
 body {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  background: url("img/background.jpg") top right no-repeat;
-  background-size: 100%;
+  background: url(img/background.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: ;
+  background-size: cover;
+  background-color: #464646;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .container {
-  position: absolute;
+  position: relative;
+  margin-top: 64px;
   width: 85%;
   height: 75%;
   bottom: 12%;
@@ -45,7 +51,7 @@ body {
 
 .quote {
   width: 75%;
-  height: 200px;
+  height: 250px;
   margin: 100px auto;
   margin-bottom: 120px;
   font-size: 24px;
